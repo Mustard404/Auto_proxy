@@ -25,3 +25,4 @@ http://http.py.cn/pay/?paytype=banlance
 ## 待优化  
 - 仅支持Windows系统 
 - 无法同步系统代理到终端    
+[![Stargazers over time](https://starchart.cc/Mustard404/Auto_proxy.svg)](https://starchart.cc/Mustard404/Auto_proxy)
