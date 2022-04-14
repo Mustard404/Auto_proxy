@@ -33,5 +33,6 @@ http://http.py.cn/pay/?paytype=banlance
 
 ## Stargazers over time 
 
-[![Stargazers over time](https://starchart.cc/Mustard404/Savior.svg)](https://starchart.cc/Mustard404/Savior)
+[![Stargazers over time](https://starchart.cc/Mustard404/Auto_proxy.svg)](https://starchart.cc/Mustard404/Auto_proxy)
+
 
