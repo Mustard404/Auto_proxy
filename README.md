@@ -22,7 +22,7 @@ http://http.py.cn/pay/?paytype=banlance
 ![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/2.jpg) 
 设置完成后点击》生成API连接》复制链接，将代码复制到auto_proxy.py的py_cn_api参数下；设置监控的网站到auto_proxy.py的ptest_url参数下。   
 ![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/3.jpg) 
-运行脚本，python3 auto_proxy.py。 
+运行脚本，python3 auto_proxy.py。不断检测目标地址连通性，并自动设置成系统代理。 
 ![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/4.jpg) 
 ![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/5.jpg) 
 
