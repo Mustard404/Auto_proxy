@@ -10,17 +10,12 @@
 
 ## 使用指南 
 
-<<<<<<< HEAD
 ### 购买IP地址池    
-=======
-### 购买IP地址池   
->>>>>>> b4a90e54e7643ac196801e705d1aece093687118
 
 推荐余额套餐的方式进行购买，该脚本配合余额支付更划算。  
 http://http.py.cn/pay/?paytype=banlance 
 ![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/1.jpg) 
 
-<<<<<<< HEAD
 ### 获取API接口
 购买套餐后，选择》API提取》直接提取，推荐配置如下：
 - 1.余额提取。      
@@ -91,25 +86,10 @@ http://http.py.cn/pay/?paytype=banlance
 
 - [ClashX 配置代理白名单](https://www.cnblogs.com/PowerTips/p/14775956.html)
 - [Clash实现IP秒级切换](https://segmentfault.com/a/1190000040828310)
-=======
-### 获取API接口 
 
-购买套餐后，选择》API提取》直接提取，推荐配置如下：（使用时长根据需求自选，提取数量设置为1，默认500，代理协议选Https）
-![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/2.jpg) 
-设置完成后点击》生成API连接》复制链接，将代码复制到auto_proxy.py的py_cn_api参数下；设置监控的网站到auto_proxy.py的ptest_url参数下。   
-![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/3.jpg) 
-运行脚本，python3 auto_proxy.py。不断检测目标地址连通性，并自动设置成系统代理。 
-![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/4.jpg) 
-![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/5.jpg) 
-
-## 待优化  
-
-- 仅支持Windows系统 
-- 无法同步系统代理到终端    
 
 ## Stargazers over time 
 
 [![Stargazers over time](https://starchart.cc/Mustard404/Auto_proxy.svg)](https://starchart.cc/Mustard404/Auto_proxy)
 
 
->>>>>>> b4a90e54e7643ac196801e705d1aece093687118
