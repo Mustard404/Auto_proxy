@@ -13,8 +13,7 @@
 ### 购买IP地址池    
 
 推荐余额套餐的方式进行购买，该脚本配合余额支付更划算。  
-http://http.py.cn/pay/?paytype=banlance 
-![image](https://github.com/Mustard404/Auto_proxy/blob/main/demo/1.jpg) 
+http://http.py.cn/pay/?paytype=banlance  
 
 ### 获取API接口
 购买套餐后，选择》API提取》直接提取，推荐配置如下：
