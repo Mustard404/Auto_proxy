@@ -1,0 +1,50 @@
+#---------------------------------------------------#
+## 配置文件需要放置在 $HOME/.config/clash/*.yaml
+
+## 这份文件是clashX的基础配置文件，请尽量新建配置文件进行修改。
+## ！！！只有这份文件的端口设置会随ClashX启动生效
+
+## 如果您不知道如何操作，请参阅 官方Github文档 https://github.com/Dreamacro/clash/blob/dev/README.md
+#---------------------------------------------------#
+
+# (HTTP and SOCKS5 in one port)
+mixed-port: 7890
+# RESTful API for clash
+external-controller: 127.0.0.1:9090
+allow-lan: true
+mode: global
+log-level: warning
+socks-port: 7891 
+port: 7892
+
+proxies:
+
+
+proxy-groups:
+  -
+    name: 加速模式
+    type: url-test
+    proxies:
+
+    url: 'https://baidu.com/'
+    interval: 300
+  -
+    name: 负载均衡
+    type: load-balance
+    proxies:
+
+    url: 'https://baidu.com/'
+    interval: 300
+    strategy: "round-robin"
+  -
+    name: 直接连接
+    type: select
+    proxies:
+      - DIRECT
+rules:
+  - DOMAIN-SUFFIX,google.com,DIRECT
+  - DOMAIN-KEYWORD,google,DIRECT
+  - DOMAIN,google.com,DIRECT
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - GEOIP,CN,DIRECT
+  - MATCH,DIRECT
