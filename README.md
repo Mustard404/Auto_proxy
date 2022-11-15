@@ -12,8 +12,8 @@
 
 ### 购买IP地址池    
 
-推荐余额套餐的方式进行购买，该脚本配合余额支付更划算。  
-http://http.py.cn/pay/?paytype=banlance  
+推荐余额套餐的方式进行购买，该脚本配合余额支付更划算(以下链接注册可赠送免费测试)。  
+[http://http.py.cn/?utm-source=wxwx&utm-keyword=?0001](http://http.py.cn/?utm-source=wxwx&utm-keyword=?0001)
 
 ### 获取API接口
 购买套餐后，选择》API提取》直接提取，推荐配置如下：
